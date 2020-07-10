@@ -964,6 +964,7 @@ void CBasePlayer::SetAnimation( PLAYER_ANIM playerAnim )
 	switch (playerAnim) 
 	{
 	case PLAYER_JUMP:
+		UTIL_ClientPrintAll(HUD_PRINTNOTIFY, UTIL_VarArgs("Hello Half-Life\n"));//¥Ú”°”Ôæ‰
 		m_IdealActivity = ACT_HOP;
 		break;
 	
